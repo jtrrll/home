@@ -1,0 +1,7 @@
+keys:
+  - &hestia age1TODO
+creation_rules:
+  - path_regex: modules/hosts/hestia_secrets\.yaml$
+    key_groups:
+      - age:
+          - *hestia
